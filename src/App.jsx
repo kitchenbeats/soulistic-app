@@ -10,8 +10,6 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 
-import './js/updateCurvedText'
-
 function App() {
 
   const location = useLocation();
