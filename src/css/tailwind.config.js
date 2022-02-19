@@ -39,6 +39,14 @@ module.exports = {
           800: '#285E61',
           900: '#234E52',
         },
+        soulgreen: {
+          600: '#539D8B',
+          400: '#a0c2ba'
+        },
+        soulpink: {
+          600: '#F5C5BE',
+          400: '#FADFDC'
+        }
       },
       boxShadow: {
         xs: '0 0 0 1px rgba(0, 0, 0, 0.16)',
@@ -58,7 +66,12 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif']
+        inter: ['Inter', 'sans-serif'],
+        burnaby: ['burnaby-stencil, sans-serif'],
+        chalky: ['chalky', 'sans-serif'],
+        yeon: ['yeonaesidae', 'sans-serif'],
+        aviano: ['aviano-future', 'sans-serif'],
+        avianoSans: ['aviano-sans', 'sans-serif']
       },
       fontSize: {
         xs: '0.75rem',

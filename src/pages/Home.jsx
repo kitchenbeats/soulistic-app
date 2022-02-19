@@ -9,14 +9,15 @@ import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 
 function Home() {
-  return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
 
-      {/*  Site header */}
-      <Header />
+  
+  return (
+    <div className="flex flex-col min-h-screen overflow-hidden bg-soulgreen-600 text-soulpink-400">
+
+   
 
       {/*  Page content */}
-      <main className="flex-grow">
+      <main className="flex-grow font-avianoSans">
 
         {/*  Page sections */}
         <HeroHome />

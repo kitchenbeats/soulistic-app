@@ -1,9 +1,5 @@
 import React, { useEffect } from 'react';
-import {
-  Routes,
-  Route,
-  useLocation
-} from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 
 import './css/style.scss';
 
@@ -13,6 +9,8 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
+
+import './js/updateCurvedText'
 
 function App() {
 

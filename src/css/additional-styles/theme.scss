@@ -1,7 +1,26 @@
 html {
     scroll-behavior: smooth;
 }
+  
+.curved-text-box {
+   
+    height: 200px;
+}
 
+.curved-text{
+    display: flex;
+    transform: rotate(-50deg);
+    border-radius: 100%;
+}
+  
+.curved-text span {
+    min-width: 10px;
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
 .form-input,
 .form-textarea,
 .form-multiselect,

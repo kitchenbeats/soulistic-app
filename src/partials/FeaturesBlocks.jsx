@@ -5,16 +5,16 @@ function FeaturesBlocks() {
     <section className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
+      <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-soulgreen-400 pointer-events-none" aria-hidden="true"></div>
+      
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-20 md:py-40">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">How Simple works</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+          <div className="max-w-3xl mx-auto text-center pb-20 md:pb-20">
+            <h2 className="h2 mb-4">Our Mission</h2>
+            <p className="text-xl text-soul-pink-600">Our artists and staff are dedicated to one thing. Soul moving art. Our mission at Soulistic Records is to share it with the world in new and innovative ways. Over the next year we will launch a new record label, powered by NFTs and blockchain technology.</p>
           </div>
 
           {/* Items */}
