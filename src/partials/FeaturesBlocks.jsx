@@ -1,11 +1,12 @@
 import React from 'react';
 
+
 function FeaturesBlocks() {
   return (
     <section className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-soulgreen-400 pointer-events-none" aria-hidden="true"></div>
+      <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-soulgreen-400 pointer-events-nonen" aria-hidden="true" ></div>
       
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">

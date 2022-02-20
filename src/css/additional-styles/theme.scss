@@ -2,19 +2,11 @@ html {
     scroll-behavior: smooth;
 }
   
-.curved-text-box {
-   
-    height: 200px;
-}
+.hero-image{
 
-.curved-text{
-    display: flex;
-    transform: rotate(-50deg);
-    border-radius: 100%;
-}
-  
-.curved-text span {
-    min-width: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
 }
 
 @keyframes rotate{

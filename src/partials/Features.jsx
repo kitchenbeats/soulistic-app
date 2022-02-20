@@ -2,6 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
 import AntoCd from '../images/anto-cd.jpeg'
+import FootstepsCd from '../images/footsteps_album.png'
+import FeatureBck from '../images/crowd_small.jpg'
 
 function Features() {
 
@@ -24,26 +26,26 @@ function Features() {
     <section className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 bg-soulgreen-400 pointer-events-none mb-16" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20  transform -translate-y-1/2"></div>
+      <div className="absolute inset-0 bg-soulgreen-400 pointer-events-none mb-16 hero-image" aria-hidden="true" style={{backgroundImage: `url(${FeatureBck}`}}></div>
+
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4 text-gray-700">Explore</h1>
-            <p className="text-xl text-gray-600">We look for one thing when collaborating with artists... <br/>they create music from their soul.</p>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16" >
+            <h1 className="h2 mb-4 text-soulpink-600">Explore</h1>
+            <p className="text-xl text-soulpink-600">We look for one thing when collaborating with artists... <br/>they create music from their soul.</p>
           </div>
 
           {/* Section content */}
-          <div className="md:grid md:grid-cols-12 md:gap-6">
+          <div className="md:grid md:grid-cols-12 md:gap-6" >
 
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3 text-gray-700">Our Artists</h3>
-                <p className="text-xl text-gray-600">Add us to your favorite music platform.</p>
+                <h3 className="h3 mb-3 text-soulpink-600">Our Artists</h3>
+                <p className="text-xl text-soulpink-600">Add us to your favorite music platform.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -131,7 +133,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={AntoCd} width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={FootstepsCd} width="500" height="462" alt="Features bg" />
             
                   </div>
                 </Transition>
