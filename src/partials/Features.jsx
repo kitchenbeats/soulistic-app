@@ -2,6 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
 import AntoCd from '../images/anto-cd.jpeg'
+import SrLogo from '../images/sr-logo.jpeg'
+
 import FootstepsCd from '../images/footsteps_album.png'
 import FeatureBck from '../images/crowd_small.jpg'
 
@@ -153,7 +155,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={AntoCd} width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={SrLogo} width="500" height="462" alt="Features bg" />
                
                   </div>
                 </Transition>
