@@ -133,7 +133,10 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FootstepsCd} width="500" height="462" alt="Features bg" />
+                    <a href="https://davebrowneproject.com/">
+                      <img className="md:max-w-none mx-auto rounded" src={FootstepsCd} width="500" height="462" alt="Features bg" />
+                    </a>
+                   
             
                   </div>
                 </Transition>
